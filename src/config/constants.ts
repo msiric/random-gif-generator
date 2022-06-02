@@ -16,7 +16,7 @@ export interface AnimalFact {
   [key: string]: string;
 }
 
-export const GIPHY_API_KEY = "zzQJdXFL0wX5cSmeegkKbJt4sII1de4B";
+export const GIPHY_API_KEY = "D31L73ySufmBJ3YBDkmbVnH9TuWXuvMa";
 
 export const GIPHY_APPROPRIATE_RATING = "g";
 

@@ -6,7 +6,7 @@ export const fetchRandomGIF = async (
   apiKey = GIPHY_API_KEY
 ) => {
   const raw = await fetch(
-    `http://api.giphy.com/v1/gifs/random?tag=${tag}&rating=${rating}&api_key=${apiKey}`
+    `https://api.giphy.com/v1/gifs/random?tag=${tag}&rating=${rating}&api_key=${apiKey}`
   );
   const response = await raw.json();
 
