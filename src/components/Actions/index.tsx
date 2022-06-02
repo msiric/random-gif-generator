@@ -21,6 +21,7 @@ export const Actions = ({
       loadingPosition="start"
       startIcon={<RandomIcon />}
       loading={loading}
+      disabled={loading}
       sx={{ margin: "auto" }}
       onClick={handleGIFGeneration}
     >
